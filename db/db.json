@@ -1,18 +1,388 @@
 {
-  "usuarios": [
+  "filmes": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": "1",
+      "titulo": "O Espetacular Homem-Aranha 2",
+      "resumo": "Peter Parker enfrentará novos desafios enquanto tenta consciliar a vida de herói e namorado.",
+      "descricao": "Não recomendado para menos de 12 anos.  Em O Espetacular Homem-Aranha 2, Peter Parker (Andrew Garfield) adora ser o Homem-Aranha, por mais que ser o herói aracnídeo o coloque em situações bem complicadas, especialmente com sua namorada Gwen Stacy (Emma Stone) e sua tia May (Sally Field). Apesar disto, ele equilibra suas várias facetas da forma que pode. No momento, Peter está mais preocupado é com o fantasma da promessa feita ao pai de Gwen, de que se afastaria dela para protegê-la. Ao mesmo tempo ele precisa lidar com o retorno de um velho amigo, Harry Osborn (Dane DeHaan), e o surgimento de um vilão poderoso: Electro (Jamie Foxx).",
+      "imagem": "assets/imagens/homemaranha.jpg",
+      "categoria": "destaque",
+      "diretor": "Mark Webb",
+      "data": "2014-05-01",
+      "duracao": "2h 22m",
+      "elenco": "Andrew Garfield, Emma Stone, Jamie Foxx",
+      "trailer": "https://www.youtube.com/embed/F_sG1e3v1cI",
+      "galeria": [
+        {
+          "src": "assets/imagens/aranhaacao.jpg",
+          "descricao": "Peter em ação"
+        },
+        {
+          "src": "assets/imagens/electro.jpg",
+          "descricao": "Electro"
+        },
+        {
+          "src": "assets/imagens/electro2.jpg",
+          "descricao": "Electro"
+        },
+        {
+          "src": "assets/imagens/gwen.jpg",
+          "descricao": "Gwen e Peter"
+        }
+      ]
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": "10",
+      "titulo": "Até o Último Homem",
+      "resumo": "A história real do médico do exército que salvou dezenas de vidas na Segunda Guerra sem portar uma arma.",
+      "descricao": "Não recomendado para menos de 16 anos  Até o Último Homem conta a história verdadeira de um combatente de guerra que, sem dar um tiro, recebeu a maior condecoração militar dos Estados Undios. Foi durante a Segunda Guerra Mundial que o médico do exército Desmond T. Doss (Andrew Garfield) demonstrou imensa coragem e respeito ao seu batalhão ao se recusar a pegar em uma arma e matar pessoas em meio ao conflito. Suas convicções religiosas e anti-violência fazem-o se destacar, assim como seu trabalho na ala médica durante a Batalha de Okinawa, na qual salvou mais de 75 homens. Doss é o primeiro Opositor Consciente da história norte-americana a receber a Medalha de Honra do Congresso.",
+      "imagem": "assets/imagens/ateoultimohomem.jpg",
+      "categoria": "destaque",
+      "diretor": "Mel Gibson",
+      "data": "2017-01-26",
+      "duracao": "2h 19m",
+      "elenco": "Andrew Garfield, Vince Vaughn, Teresa Palmer, Sam Worthington",
+      "trailer": "https://www.youtube.com/embed/s2-1hz1juBI",
+      "galeria": [
+        {
+          "src": "assets/imagens/ateoultimohomem1.jpg",
+          "descricao": "Desmond em campo de batalha"
+        },
+        {
+          "src": "assets/imagens/ateoultimohomem5.jpg",
+          "descricao": "Desmond orando antes de partir para o campo de batalha"
+        },
+        {
+          "src": "assets/imagens/ateoultimohomem2.jpg",
+          "descricao": "Dorothy Schutte"
+        },
+        {
+          "src": "assets/imagens/ateoultimohomem4.jpg",
+          "descricao": "Quartel dos soldados"
+        },
+        {
+          "src": "assets/imagens/ateoultimohomem6.jpg",
+          "descricao": "Desmond sendo resgatado"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "titulo": "Homem-Aranha 3",
+      "resumo": "Quando Peter Parker acha que sua vida está finalmente em paz, seu passado e presente começam a atormentá-lo novamente.",
+      "descricao": "Não recomendado para menos de 12 anos.  Peter Parker (Tobey Maguire) conseguiu encontrar um meio-termo entre seus deveres como o Homem-Aranha e seu relacionamento com Mary Jane (Kirsten Dunst). Porém o sucesso como herói e a bajulação dos fãs, entre eles Gwen Stacy (Bryce Dallas Howard), faz com que Peter se torne auto-confiante demais e passe a negligenciar as pessoas que se importam com ele. Porém a situação muda quando ele precisa enfrentar Flint Marko (Thomas Haden Church), mais conhecido como o Homem-Areia, que possui ligações com a morte do seu tio Ben. Tendo que lidar com o sentimento de vingança, Peter passa a usar um estranho uniforme negro, que se adapta ao seu corpo.",
+      "imagem": "assets/imagens/aranha3.jpg",
+      "categoria": "destaque",
+      "diretor": "Sam Raimi",
+      "data": "2007-05-04",
+      "duracao": "2h 19m",
+      "elenco": "Tobey Maguire, Kirsten Dunst, James Franco, Thomas Haden Church, Topher Grace",
+      "trailer": "https://www.youtube.com/embed/F_sG1e3v1cI",
+      "galeria": [
+        {
+          "src": "assets/imagens/tobey1.jpg",
+          "descricao": "Homem-Aranha"
+        },
+        {
+          "src": "assets/imagens/venom.jpg",
+          "descricao": "Venom"
+        },
+        {
+          "src": "assets/imagens/sandman.jpg",
+          "descricao": "Homem-Areia"
+        },
+        {
+          "src": "assets/imagens/tobey2.jpg",
+          "descricao": "Mary Jane e Peter"
+        },
+        {
+          "src": "assets/imagens/tobey3.jpg",
+          "descricao": "Black Homem-Aranha"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "titulo": "Gente Grande",
+      "resumo": "Velhos amigos de infância se reúnem devido a morte do antigo treinador de basquete deles.",
+      "descricao": "Não recomendado para menos de 12 anos.  Em Gente Grande, Lenny (Adam Sandler), Kurt (Chris Rock), Eric (Kevin James), Marcus (David Spade) e Rob (Rob Schneider) se conhecem desde pequenos. Passados trinta anos, os cinco amigos se reencontram para curtir um fim de semana juntos com as respectivas famílias, mas o feriado de 4 de Julho em uma casa no lago promete muito mais diversão do que apenas lembranças dos bons momentos. Casados e com várias crianças, os homens de família terão de confrontar o fato de não serem mais tão jovens.",
+      "imagem": "assets/imagens/gente.jpg",
+      "categoria": "destaque",
+      "diretor": "Dennis Dugan",
+      "data": "2010-09-24",
+      "duracao": "1h 42m",
+      "elenco": "Adam Sandler, Kevin James, Chris Rock, David Spade, Rob Schneider",
+      "trailer": "https://www.youtube.com/embed/F_sG1e3v1cI",
+      "galeria": [
+        {
+          "src": "assets/imagens/gente1.jpg",
+          "descricao": "Turma reunida"
+        },
+        {
+          "src": "assets/imagens/gente5.jpg",
+          "descricao": "Filhas do Rob"
+        },
+        {
+          "src": "assets/imagens/gente3.jpg",
+          "descricao": "Turma em ação no parque"
+        },
+        {
+          "src": "assets/imagens/gente4.jpg",
+          "descricao": "Trilha na floresta"
+        },
+        {
+          "src": "assets/imagens/gente2.jpg",
+          "descricao": "Jogo de basquete"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "titulo": "Círculo de Fogo",
+      "resumo": "Humanidade luta contra monstros gigantes usando robôs chamados Jaegers para defender a Terra.",
+      "descricao": "Não recomendado para menos de 12 anos.  Quando várias criaturas monstruosas, conhecidas como Kaiju, começam a emergir do mar, tem início uma batalha entre estes seres e os humanos. Para combatê-los, a humanidade desenvolve uma série de robôs gigantescos, os Jaegers, cada um controlado por duas pessoas através de uma conexão neural. Entretanto, mesmo os Jaegers se mostram insuficientes para derrotar os Kaiju. Diante deste cenário, a última esperança é um velho robô, obsoleto, que passa a ser comandado por um antigo piloto (Charlie Hunnam) e uma treinadora (Rinko Kikuchi)",
+      "imagem": "assets/imagens/circulodefogo.jpg",
+      "categoria": "recomendado",
+      "diretor": "Guillermo del Toro",
+      "data": "2013-07-12",
+      "duracao": "2h 11m",
+      "elenco": "Charlie Hunnam, Idris Elba, Rinko Kikuchi, Charlie Day",
+      "trailer": "https://www.youtube.com/embed/A85EtOalcsM",
+      "galeria": [
+        {
+          "src": "assets/imagens/fogo1.jpg",
+          "descricao": "Jaegers prontos para o combate"
+        },
+        {
+          "src": "assets/imagens/fogo2.jpg",
+          "descricao": "Pilotos se preparando"
+        },
+        {
+          "src": "assets/imagens/fogo3.jpg",
+          "descricao": "Protagonistas"
+        },
+        {
+          "src": "assets/imagens/fogo4.jpg",
+          "descricao": "Luta contra o Kaiju"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "titulo": "A Origem",
+      "resumo": "Um ladrão especializado em invadir sonhos aceita um último trabalho: plantar uma ideia na mente de um alvo.",
+      "descricao": "Não recomendado para menos de 14 anos.  Em um mundo onde é possível entrar na mente humana, Cobb (Leonardo DiCaprio) está entre os melhores na arte de roubar segredos valiosos do inconsciente, durante o estado de sono. Além disto ele é um fugitivo, pois está impedido de retornar aos Estados Unidos devido à morte de Mal (Marion Cotillard). Desesperado para rever seus filhos, Cobb aceita a ousada missão proposta por Saito (Ken Watanabe), um empresário japonês: entrar na mente de Richard Fischer (Cillian Murphy), o herdeiro de um império econômico, e plantar a ideia de desmembrá-lo. Para realizar este feito ele conta com a ajuda do parceiro Arthur (Joseph Gordon-Levitt), a inexperiente arquiteta de sonhos Ariadne (Ellen Page) e Eames (Tom Hardy), que consegue se disfarçar de forma precisa no mundo dos sonhos.",
+      "imagem": "assets/imagens/aorigem.jpg",
+      "categoria": "recomendado",
+      "diretor": "Christopher Nolan",
+      "data": "2010-07-16",
+      "duracao": "2h 28m",
+      "elenco": "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page, Tom Hardy",
+      "trailer": "https://www.youtube.com/embed/YoHD9XEInc0",
+      "galeria": [
+        {
+          "src": "assets/imagens/origem1.jpg",
+          "descricao": "Personagens lutando"
+        },
+        {
+          "src": "assets/imagens/origem2.jpg",
+          "descricao": "Dentro dos sonhos"
+        },
+        {
+          "src": "assets/imagens/origem5.jpg",
+          "descricao": "Pilar dos sonhos"
+        },
+        {
+          "src": "assets/imagens/origem4.jpg",
+          "descricao": "Cidades dobrando"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "titulo": "O Poderoso Chefão",
+      "resumo": "Durante o casamento de sua filha, Don Vito Corleone enfrenta pedidos de favores e recusa um negócio com drogas.",
+      "descricao": "Não recomendado para menos de 16 anos.  Durante o casamento de sua filha Connie (Talia Shire), Don Vito Corleone (Marlon Brando), chefe mafioso, concede favores, como ao mortuário Bonasera (Salvatore Corsitto), que pede justiça para a filha agredida. Michael (Al Pacino), filho caçula e herói de guerra, aparece distante dos negócios, acompanhado da namorada Kay Adams (Diane Keaton). Johnny Fontane (Al Martino), cantor e afilhado de Vito, pede ajuda para conseguir um papel em Hollywood. Vito promete resolver. Mais tarde, Sollozzo (Al Lettieri), com apoio dos Tattaglia, propõe um esquema de drogas, mas Vito recusa, iniciando tensões entre as famílias mafiosas.",
+      "imagem": "assets/imagens/chefe1.jpg",
+      "categoria": "recomendado",
+      "diretor": "Francis Ford Coppola",
+      "data": "1972-03-24",
+      "duracao": "2h 55m",
+      "elenco": "Marlon Brando, Al Pacino, James Caan, Diane Keaton",
+      "trailer": "https://www.youtube.com/embed/UaVTIH8mujA",
+      "galeria": [
+        {
+          "src": "assets/imagens/chefe2.jpg",
+          "descricao": "O Poderoso Chefão"
+        },
+        {
+          "src": "assets/imagens/chefe3.jpg",
+          "descricao": "Don Corleone"
+        },
+        {
+          "src": "assets/imagens/chefe5.jpg",
+          "descricao": "Casamento de Connie"
+        },
+        {
+          "src": "assets/imagens/chefe6.jpg",
+          "descricao": "Assassinato de Santino Corleone"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "titulo": "Clube da Luta",
+      "resumo": "Um homem insatisfeito com sua vida forma um clube de lutas clandestino com um vendedor de sabão carismático.",
+      "descricao": "Não recomendado para menos de 18 anos.  Jack (Edward Norton) é um executivo jovem, trabalha como investigador de seguros, mora confortavelmente, mas ele está ficando cada vez mais insatisfeito com sua vida medíocre. Para piorar ele está enfrentando uma terrível crise de insônia, até que encontra uma cura inusitada para o sua falta de sono ao frequentar grupos de auto-ajuda. Nesses encontros ele passa a conviver com pessoas problemáticas como a viciada Marla Singer (Helena Bonham Carter) e a conhecer estranhos como Tyler Durden (Brad Pitt). Misterioso e cheio de ideias, Tyler apresenta para Jack um grupo secreto que se encontra para extravasar suas angústias e tensões através de violentos combates corporais.",
+      "imagem": "assets/imagens/clubdaluta.jpg",
+      "categoria": "recomendado",
+      "diretor": "David Fincher",
+      "data": "1999-10-15",
+      "duracao": "2h 19m",
+      "elenco": "Brad Pitt, Edward Norton, Helena Bonham Carter",
+      "trailer": "https://www.youtube.com/embed/BdJKm16Co6M",
+      "galeria": [
+        {
+          "src": "assets/imagens/luta1,jpg.jpg",
+          "descricao": "Protagonistas"
+        },
+        {
+          "src": "assets/imagens/luta2.jpg",
+          "descricao": "Luta no porão"
+        },
+        {
+          "src": "assets/imagens/luta3.jpg",
+          "descricao": "Final"
+        },
+        {
+          "src": "assets/imagens/luta4.jpg",
+          "descricao": "Narrador"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "titulo": "Capitão América 4",
+      "resumo": "Sam Wilson assume o manto de Capitão América enquanto enfrenta uma conspiração global ameaçadora.",
+      "descricao": "Classificação indicativa não definida.  Capitão América: Admirável Mundo Novo é o próximo filme do famoso herói da Marvel. Desta vez, o filme dá continuidade à minissérie de televisão Falcão e o Soldado Invernal, onde o escudo está nas mãos de Sam Wilson (Anthony Mackie), após Steve Rogers (Chris Evans) o entregar em Vingadores: Ultimato. Durante a série, Sam aceita seu dever como o novo Capitão América ao lado de Bucky Barnes (Sebastian Stan). Admirável Mundo Novo compõe a Fase Cinco do Universo Cinematográfico Marvel (UCM). O enredo promete explorar os desafios e responsabilidades de Wilson em seu novo papel, enquanto enfrenta novas ameaças e aliados inesperados. A direção está a cargo de Julius Onah, conhecido por seu trabalho em The Cloverfield Paradox, e o roteiro foi escrito por Malcolm Spellman, que também foi o showrunner de Falcão e o Soldado Invernal.",
+      "imagem": "assets/imagens/capitaoamerica.jpg",
+      "categoria": "lancamento",
+      "diretor": "Julius Onah",
+      "data": "2025-07-25",
+      "duracao": "2h 15m",
+      "elenco": "Anthony Mackie, Sebastian Stan, Harrison Ford",
+      "trailer": "https://www.youtube.com/embed/U7JG6FMoEdM",
+      "galeria": [
+        {
+          "src": "assets/imagens/capitao1.jpg",
+          "descricao": "Capitão América"
+        },
+        {
+          "src": "assets/imagens/capitao2.jpg",
+          "descricao": "Novo Falcão"
+        },
+        {
+          "src": "assets/imagens/capitao3.jpg",
+          "descricao": "Hulk Vermelho"
+        },
+        {
+          "src": "assets/imagens/capitao4.jpg",
+          "descricao": "Harrison Ford como Thadeus Ross"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "titulo": "Divertida Mente 2",
+      "resumo": "Riley agora adolescente enfrenta novas emoções que surgem durante sua puberdade.",
+      "descricao": "Livre  Divertidamente 2 marca a sequência da famosa história de Riley (Kaitlyn Dias). Com um salto temporal, a garota agora se encontra mais velha, com 13 anos de idade, passando pela tão temida pré-adolescência. Junto com o amadurecimento, a sala de controle mental da jovem também está passando por uma demolição para dar lugar a algo totalmente inesperado: novas emoções. As já conhecidas, Alegria (Amy Poehler), Tristeza (Phyllis Smith), Raiva (Lewis Black), Medo (Tony Hale) e Nojinho (Liza Lapira), que desde quando Riley é bebê, eles predominam a central de controle da garota em uma operação bem-sucedida, tendo algumas falhas no percurso como foi apresentado no primeiro filme. As antigas emoções não têm certeza de como se sentir e com agir quando novos inquilinos chegam ao local, sendo um deles a tão temida Ansiedade (Maya Hawke). Inveja (Ayo Edebiri), Tédio (Adèle Exarchopoulos) e Vergonha (Paul Walter Hauser) integrarão juntos com a Ansiedade na mente de Riley, assim como a Nostalgia (June Squibb) que aparecerá também.",
+      "imagem": "assets/imagens/insideout.jpg",
+      "categoria": "lancamento",
+      "diretor": "Kelsey Mann",
+      "data": "2024-06-14",
+      "duracao": "1h 36m",
+      "elenco": "Amy Poehler, Phyllis Smith, Lewis Black, Maya Hawke, Ayo Edebiri",
+      "trailer": "https://www.youtube.com/embed/ebo1jNfIgA4",
+      "galeria": [
+        {
+          "src": "assets/imagens/mente1.jpg",
+          "descricao": "Novas emoções"
+        },
+        {
+          "src": "assets/imagens/mente2.jpg",
+          "descricao": "Alegria e Ansiedade juntas"
+        },
+        {
+          "src": "assets/imagens/mente3.jpg",
+          "descricao": "Salão das convicções"
+        },
+        {
+          "src": "assets/imagens/mente4.jpg",
+          "descricao": "Riley"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "titulo": "The Batman",
+      "resumo": "Bruce Wayne assume o papel de detetive em uma Gotham sombria enquanto enfrenta o Charada.",
+      "descricao": "Não recomendado para menos de 14 anos.  (The Batman, no original) segue o segundo ano de Bruce Wayne (Robert Pattinson) como o herói de Gotham, causando medo nos corações dos criminosos da sombria cidade. Com apenas alguns aliados de confiança - Alfred Pennyworth (Andy Serkis) e o tenente James Gordon (Jeffrey Wright) - entre a rede corrupta de funcionários e figuras importantes do distrito, o vigilante solitário se estabeleceu como a única personificação da vingança entre seus concidadãos. Durante uma de suas investigações, Bruce acaba envolvendo a si mesmo e Gordon em um jogo de gato e rato, ao investigar uma série de maquinações sádicas em uma trilha de pistas enigmáticas estabelecida pelo vilão Charada. Quando o trabalho acaba o levando a descobrir uma onda de corrupção que envolve o nome de sua família, pondo em risco a própria integridade e as memórias que tinha sobre seu pai, Thomas Wayne, as evidências começam a chegar mais perto de casa, precisando, Batman, forjar novos relacionamentos, para assim desmascarar o culpado e fazer justiça ao abuso de poder e à corrupção que há muito tempo assola Gotham City.",
+      "imagem": "assets/imagens/batman.jpg",
+      "categoria": "lancamento",
+      "diretor": "Matt Reeves",
+      "data": "2022-03-03",
+      "duracao": "2h 56m",
+      "elenco": "Robert Pattinson, Zoë Kravitz, Paul Dano, Jeffrey Wright, Colin Farrell",
+      "trailer": "https://www.youtube.com/embed/IQaP0hYraMw",
+      "galeria": [
+        {
+          "src": "assets/imagens/batman1.jpg",
+          "descricao": "Batman e Mulher Gato"
+        },
+        {
+          "src": "assets/imagens/batman2.jpg",
+          "descricao": "Bruce Wayne"
+        },
+        {
+          "src": "assets/imagens/batman3.jpg",
+          "descricao": "Charada"
+        },
+        {
+          "src": "assets/imagens/batman4.jpg",
+          "descricao": "Batmóvel"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "titulo": "Deadpool & Wolverine",
+      "resumo": "Deadpool se une a Wolverine em uma missão maluca para salvar seu universo.",
+      "descricao": "Classificação indicativa não definida.  Deadpool & Wolverine reúne o icônico mercenário tagarela Wade Wilson (Ryan Reynolds) e o poderoso mutante Wolverine (Hugh Jackman) em uma aventura explosiva, escrita e produzida pelos mesmos talentos por trás de Deadpool (2016) e Deadpool 2 (2018). Wade Wilson desfruta de um momento de aparente calma ao lado de Vanessa (Morena Baccarin) e seus amigos e, em contra partida, Wolverine se recupera de seus ferimentos. Um têm os seus caminhos cruzados com o outro, dando início a uma improvável aliança. Juntos, eles enfrentam um inimigo formidável em comum, desencadeando uma jornada repleta de ação, humor e reviravoltas surpreendentes. Deadpool & Wolverine promete ser uma aventura épica, cheia de referências aos quadrinhos e momentos de pura adrenalina, proporcionando aos fãs uma experiência única e inesquecível no universo dos super-heróis.",
+      "imagem": "assets/imagens/deadpool.jpg",
+      "categoria": "lancamento",
+      "diretor": "Shawn Levy",
+      "data": "2024-07-26",
+      "duracao": "2h 08m",
+      "elenco": "Ryan Reynolds, Hugh Jackman, Morena Baccarin, Matthew Macfadyen",
+      "trailer": "https://www.youtube.com/embed/dEbe0rS4Z2A",
+      "galeria": [
+        {
+          "src": "assets/imagens/pool1.jpg",
+          "descricao": "Deadpool e Wolverine"
+        },
+        {
+          "src": "assets/imagens/pool2.jpg",
+          "descricao": "Equipe do Vazio"
+        },
+        {
+          "src": "assets/imagens/pool3.jpg",
+          "descricao": "Dogpool"
+        },
+        {
+          "src": "assets/imagens/pool4.jpg",
+          "descricao": "Cassandra Nova"
+        }
+      ]
     }
   ]
 }
